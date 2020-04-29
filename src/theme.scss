@@ -1,0 +1,54 @@
+$padding16: 16px;
+$padding28: 28px;
+$padding48: 48px;
+$padding72: 72px;
+$padding120: 120px;
+
+$fontColor: #393E47;
+$mint: #00CABB;
+$darkMint: #00AFA2;
+$orange: #FF6F00;
+$darkOrange: #E86602;
+$errorBorder: #FF768F;
+$errorMessage: #E30044;
+$grey: #80838B;
+$metalGrey: #A5A9B0;
+$lightGrey: #C6C9CE;
+$fogGrey: #E6E8ED;
+$white: #FFFFFF;
+
+$mobileS: 360px;
+$mobileM: 480px;
+$mobileL: 550px;
+$tablet: 768px;
+$desktopS: 992px;
+$desktopM: 1200px;
+$desktopL: 1920px;
+
+@mixin for-phone-s {
+  @media (min-width: $mobileS) { @content; }
+}
+
+@mixin for-phone-m {
+  @media (min-width: $mobileM) { @content; }
+}
+
+@mixin for-phone-l {
+  @media (min-width: $mobileL) { @content; }
+}
+
+@mixin for-tablet {
+  @media (min-width: $tablet) { @content; }
+}
+
+@mixin for-desktop-s {
+  @media (min-width: $desktopS) { @content; }
+}
+
+@mixin for-desktop-m {
+  @media (min-width: $desktopM) { @content; }
+}
+
+@mixin for-desktop-l {
+  @media (min-width: $desktopL) { @content; }
+}

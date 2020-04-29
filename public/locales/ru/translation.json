@@ -1,0 +1,29 @@
+{
+	"title": "Информация о странах мира",
+	"inputs": {
+		"byCountryName" : {
+			"inputName": "По названию страны"
+		},
+		"byCountryCode" : {
+			"inputName": "По коду страны"
+		},
+		"byCountryCurrency" : {
+			"inputName": "По валюте страны"
+		}
+	},
+	"submit": "Отправить",
+	"information": "Добавьте данные в одно из полей и нажмите кнопку Отправить",
+	"infoBlock": {
+		"countryName": "Название страны",
+		"countryСapital": "Площадь",
+		"countryPopulation": "Население",
+		"countryRegion": "Регион",
+		"countryCode": "Код страны"
+	},
+	"errorMessage": {
+		"emptyError": "Пожалуйста, добавьте данные",
+		"regexError": "Пожалуйста, используйте только латинские буквы",
+		"lengthError": "Количество символов не должно превышать 50",
+		"globalError": "Извините, заш запрос не дал результатов"
+	}
+}

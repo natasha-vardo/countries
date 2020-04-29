@@ -1,0 +1,70 @@
+@import '../../theme.scss';
+
+.input-wrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	flex-wrap: wrap;
+	margin-bottom: 12px;
+}
+
+.input-title {
+	flex: 0 0 100%;
+	max-width: 100%;
+	margin-bottom: 16px;
+}
+
+.content_input {
+	width: 100%;
+  font-size: 16px;
+	color: $grey;
+  border: 1px solid $lightGrey;
+  box-sizing: border-box;
+  border-radius: 3px;
+	padding: 8px;
+
+  &:active,
+  &:hover,
+  &:focus {
+    outline: 0;
+    outline-offset: 0;
+    border: 1px solid $mint;
+	}
+	
+	@include for-phone-m {    
+		width: 70%;
+	}
+}
+
+.submit-button {
+	width: 92px;
+	height: 36px;
+	border: 1px solid $orange;
+	border-radius: 5px;
+	text-align: center;
+	background-color: $orange;
+	cursor: pointer;
+	margin-top: 16px;
+
+	&:hover {
+		background-color: $darkOrange;
+		border-color: $darkOrange;
+	}
+
+	@include for-phone-m {    
+		margin-top: 0;
+	}
+}
+
+.submit-button_span {
+	display: inline-block;
+	color: $white;
+	margin-top: 5px;
+}
+
+.error-message {
+	display: block;
+	width: 100%;
+	color: $errorMessage;
+	margin-top: 5px;
+}

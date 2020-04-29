@@ -1,0 +1,30 @@
+{
+	"title": "Information about the countries of the world",
+	"inputs": {
+		"byCountryName" : {
+			"inputName": "By country name"
+		},
+		"byCountryCode" : {
+			"inputName": "By country code"
+		},
+		"byCountryCurrency" : {
+			"inputName": "By country currency"
+		}
+	},
+	"submit": "Submit",
+	"information": "Add data to one of the fields and click Submit",
+	"infoBlock": {
+		"countryName": "Country name",
+		"countryСapital": "Capital",
+		"countryPopulation": "Population",
+		"countryRegion": "Region",
+		"countryCode": "Country code"
+	},
+	"errorMessage": {
+		"emptyError": "Please add data",
+		"regexError": "Please use only latin letters",
+		"lengthError": "Data shouldn't contain more than 50 characters",
+		"globalError": "Sorry, there are no current information"
+	}
+}
+
